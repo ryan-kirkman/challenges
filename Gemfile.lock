@@ -78,6 +78,7 @@ PLATFORMS
 DEPENDENCIES
   jasmine (~> 2.1.0)
   pry-byebug
+  rake
   rspec
   rspec-web
   shotgun
