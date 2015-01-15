@@ -19,7 +19,8 @@ And remember, while solving a problem remember to communicate and share what you
 #### Backend
 * [1 - Technology Scavenger](technology_scavenger.md)
 * [2 - Build a Talkdesk Integration](talkdesk_integration.md)
-* [3 - Billing of Calls based on Country and Phone Type|Call Billing Problem](call_billing.md)
+* [3 - Billing of Calls based on Country and Phone Type | Call Billing Problem](call_billing.md)
+* [4 - Call Testing Service](call_billing.md)
 
 #### Frontend
 * [4 - SMS Support on Talkdesk](sms_support.md)
