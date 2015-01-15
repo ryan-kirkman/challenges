@@ -24,8 +24,7 @@ Bonus points if you use a JS Framework and many kudos if you add tests to your p
 You can use the following credentials to login and explore Talkdesk:
 
 - URL: [https://yourcompany.mytalkdesk.com/](https://yourcompany.mytalkdesk.com/)
-- Email: problems@talkdesk.com
-- Password: please use the [hipchat channel](https://www.hipchat.com/gP8zhqbmd) and ask for it
+- Credentials: please use the hipchat channel and ask for it
 
 Here is an example of the ring groups definition in the "accounts" collection:
 
