@@ -6,7 +6,6 @@ Usually accounts have not one, but several Agents and they can be grouped so tha
 
 For this challenge we want you to implement the interface that will allow Talkdesk users to manage ring groups.
 
-
 ## The Problem
 
 In Talkdesk, groups are set through associations between phone numbers and agents. If an agent has the ring group "tier1" and the phone number has the same ring group, when someone calls the phone number, it will ring that agent. The Talkdesk backend also supports routing of calls based on a multi-level chain where the second group will ring if the agents in the first level aren't available. 
@@ -15,7 +14,7 @@ Example: One of our accounts uses Talkdesk to provide support to their customers
 
 For this to be useful to customers, they need to be able to create these ring groups themselves and be able to change them which is not supported at this point.
 
-Using the background information we provide in the following section, please implement the functionality defined [here](/problems/assets/ring groups). We expect you to work on the interface to manage ring groups, don't worry with the Talkdesk layout details.
+Using the background information we provide in the following section, please implement the functionality defined [here](/problems/assets/ring groups). We expect you to work on the interface to manage ring groups (the one highlighted in [this screen](/problems/assets/ring groups/challenge_implementation.png)), don't worry with the Talkdesk layout details and the context for the functionality.
 
 Bonus points if you use a JS Framework and many kudos if you add tests to your project.
 
