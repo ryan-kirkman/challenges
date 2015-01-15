@@ -16,8 +16,8 @@ And remember, while solving a problem remember to communicate and share what you
 
 ## Problems List
 
-* [[Technology Scavenger]]
-* [[Build a Talkdesk Integration]]
-* [[Billing of Calls based on Country and Phone Type|Call Billing Problem]]
-* [[SMS Support on Talkdesk]]
+* [Technology Scavenger](technology_scavenger.md)
+* [Build a Talkdesk Integration](talkdesk_integration.md)
+* [Billing of Calls based on Country and Phone Type|Call Billing Problem](call_billing.md)
+* [SMS Support on Talkdesk](sms_support.md)
 * [More Flexible Business Hours - UI](business_hours.md)
