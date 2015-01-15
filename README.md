@@ -29,7 +29,7 @@ And what we expect you'll learn about us is:
 1. Read the [list](problems/) and choose a problem to solve
 2. Clone this repository
 3. Open an Issue in your new repo with the problem you've chosen (can be used to discuss, ask questions, etc)
-4. Solve the problem any way you like, but please follow our Development practices.
+4. Solve the problem any way you like, but please follow our [Development practices](talkdesk practices/).
    This means use whatever tools, gems, etc. you need to get the job done. We also use github to collborate
    so use it in which ever way you like.
 5. Have fun!
