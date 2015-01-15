@@ -2,7 +2,7 @@
 
 If you haven't yet read the [README][1] please do so now before reading the rest of this page. 
 
-So basically what you need to do now is pick a problem to solve. But before getting your hands dirty, please take some time to read about (and understand) our [[Development Practices]] and try to follow them as best as you can.
+So basically what you need to do now is pick a problem to solve. But before getting your hands dirty, please take some time to read about (and understand) our [Development practices](/talkdesk practices/) and try to follow them as best as you can.
 
 And remember, while solving a problem remember to communicate and share what you're thinking, even if you think it's something not important or you're creating too much "noise." Rather err on the side of being "verbose" than going into pure stealth mode.
 
