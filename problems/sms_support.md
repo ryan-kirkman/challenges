@@ -19,8 +19,7 @@ Example use case: a customer sends an SMS requesting a call. A Talkdesk agent ca
 You can use the following credentials to login and explore Talkdesk:
 
 - URL: [https://yourcompany.mytalkdesk.com/](https://yourcompany.mytalkdesk.com/)
-- Email: problems@talkdesk.com
-- Password: please use the [hipchat channel](https://www.hipchat.com/gP8zhqbmd) and ask for it
+- Credentials: please use the hipchat channel and ask for it
 
 Here is an example of a voicemail entry:
 
