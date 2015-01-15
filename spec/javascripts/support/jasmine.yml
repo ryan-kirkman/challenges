@@ -1,0 +1,26 @@
+# src_files
+src_files:
+    - app/js/libs/jquery-2.1.1.min.js
+    - app/js/libs/bootstrap.min.js
+    - app/js/libs/underscore-min.js
+    - app/js/libs/backbone-min.js
+    - app/js/application.js
+    - spec/javascripts/helpers/jst_helper.js
+    - app/js/backbone/views/*.js
+    - app/js/backbone/**/*.js
+
+# stylesheets
+stylesheets:
+
+# helpers
+helpers:
+
+# spec_files
+spec_files:
+  - challenge.spec.js
+
+# src_dir
+src_dir:
+
+# spec_dir
+spec_dir:
