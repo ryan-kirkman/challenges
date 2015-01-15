@@ -1,9 +1,16 @@
+require 'bundler/setup'
 
 begin
-  require 'jasmine'
-  load 'jasmine/tasks/jasmine.rake'
-rescue LoadError
-  task :jasmine do
-    abort "Jasmine is not available. In order to run jasmine, you must: (sudo) gem install jasmine"
+  require 'yard'
+
+  YARD::Rake::YardocTask.new do |t|
+    t.options += ['--title', "Talkdesk Project"]
   end
+rescue LoadError
+  puts "Yardoc not available."
+end
+
+desc 'Run all specs through RSpec'
+task :spec do
+  system 'bundle exec rspec spec/unit spec/integration'
 end

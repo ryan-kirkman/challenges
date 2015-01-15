@@ -1,14 +1,13 @@
-source 'https://rubygems.org'
+source "http://rubygems.org"
 
-gem 'sinatra'
-gem 'sinatra-assetpack'
-gem 'sinatra-backbone'
+gem 'rake'
 
-group :development, :test do
+group :development do
+  gem 'yard'
+  gem 'redcarpet'
+end
+
+group :test do
   gem 'rspec'
-  gem 'rspec-web'
-  gem 'jasmine', '~> 2.1.0'
-  gem 'rake'
-  gem 'shotgun'
-  gem 'pry-byebug'
+  gem 'simplecov'
 end
