@@ -8,6 +8,10 @@ For this challenge we want you to extend Talkdesk's functionality by making this
 
 One of the most common requests from our customers is the ability to filter calls by agent, type, phone number and more. 
 
+It's your job to implement a solution for this problem. We expect you to work on the Javascript solution as well as in the interface aspect of the problem so creativity is welcome.
+
+As you might have already noticed, we value beautiful code, be it Ruby, Javascript, HTML or CSS. Show us your skills! Bonus points if you use a JS Framework and many kudos if you add tests to your project.
+
 ## Background Information
 
 - The interface makes use of entries which can be inbound calls, outbound calls or missed calls.
