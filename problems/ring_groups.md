@@ -17,6 +17,8 @@ For this to be useful to customers, they need to be able to create these ring gr
 
 Using the background information we provide in the following section, please implement the functionality defined [here](/problems/assets/ring groups). We expect you to work on the interface to manage ring groups, don't worry with the Talkdesk layout details.
 
+As you might have already noticed, we value beautiful code, be it Ruby, Javascript, HTML or CSS. Show us your skills!
+
 ## Background Information
 
 You can use the following credentials to login and explore Talkdesk:
