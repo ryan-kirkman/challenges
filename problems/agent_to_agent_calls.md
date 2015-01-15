@@ -17,7 +17,7 @@ Using the background information we provide in the following section and taking 
 
 You can use the following credentials to login and explore Talkdesk:
 
-URL: https://yourcompany.mytalkdesk.com/
-Email: problems@talkdesk.com
-Password: please use the hipchat channel and ask for it
-Final note: If there's anything you don't understand or is ambiguous, open an issue in your repository with the question ;)
+- URL: [https://yourcompany.mytalkdesk.com/](https://yourcompany.mytalkdesk.com/)
+- Credentials: please use the hipchat channel and ask for it
+
+*Final note*: If there's anything you don't understand or is ambiguous, open an issue in your repository with the question ;) 

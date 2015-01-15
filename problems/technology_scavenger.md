@@ -15,3 +15,5 @@ Given a list of websites (http://cl.ly/0I0y2y0M110r), list all websites that use
 - Freshdesk
 
 Note: assume that this list is updated daily and the list of technologies can be 100x bigger (the code needs to be as optimized as possible; new technologies need to be easy to add).
+
+*Final note*: If there's anything you don't understand or is ambiguous, open an issue in your repository with the question ;) 
