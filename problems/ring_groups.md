@@ -7,17 +7,19 @@ Usually accounts have not one, but several Agents and they can be grouped so tha
 For this challenge we want you to implement the interface that will allow Talkdesk users to manage ring groups.
 
 
-# The Problem
+## The Problem
 
-In Talkdesk, groups are set through associations between phone numbers and agents. If an agent has the ring group "tier1" and the phone number has the same ring group, when someone calls the phone number it will ring that agent. The Talkdesk backend also supports routing of calls based on a multi-level chain where the second group will ring if the agents in the first level aren't available. 
+In Talkdesk, groups are set through associations between phone numbers and agents. If an agent has the ring group "tier1" and the phone number has the same ring group, when someone calls the phone number, it will ring that agent. The Talkdesk backend also supports routing of calls based on a multi-level chain where the second group will ring if the agents in the first level aren't available. 
 
 Example: One of our accounts uses Talkdesk to provide support to their customers and they have 3 support levels: "tier 1", "tier 2" and "tier 3". "tier 1" is the team that should answer all the calls, however, technical issues are usually escalated to "tier 2" (calls can be transfered between both groups); if none of these groups are able to solve the customer's problem, engineers ("tier 3") are available to help.
 
 For this to be useful to customers, they need to be able to create these ring groups themselves and be able to change them which is not supported at this point.
 
-Using the background information we provide in the following section, please implement the functionality defined [here](/assets/ring groups/). We expect you to work on the interface to manage ring groups, don't worry with the Talkdesk layout details.
+Using the background information we provide in the following section, please implement the functionality defined [here](/problems/assets/ring groups). We expect you to work on the interface to manage ring groups, don't worry with the Talkdesk layout details.
 
-# Background Information
+Bonus points if you use a JS Framework and many kudos if you add tests to your project.
+
+## Background Information
 
 You can use the following credentials to login and explore Talkdesk:
 
