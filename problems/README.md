@@ -20,12 +20,12 @@ And remember, while solving a problem remember to communicate and share what you
 * [1 - Technology Scavenger](technology_scavenger.md)
 * [2 - Build a Talkdesk Integration](talkdesk_integration.md)
 * [3 - Billing of Calls based on Country and Phone Type | Call Billing](call_billing.md)
-* [4 - Call Testing Service](call_billing.md)
+* [4 - Call Testing Service](call_testing_service.md)
 
 #### Frontend
 * [5 - SMS Support on Talkdesk](sms_support.md)
 * [6 - Ring Groups Interface](ring_groups.md)
-* [7 - Call List Filtering](ring_groups.md)
+* [7 - Call List Filtering](call_list_filtering.md)
 
 #### DevOps
 * [8 - DevOps](devops.md)
