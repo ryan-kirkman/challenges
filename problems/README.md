@@ -19,21 +19,22 @@ And remember, while solving a problem remember to communicate and share what you
 #### Backend
 * [1 - Technology Scavenger](technology_scavenger.md)
 * [2 - Build a Talkdesk Integration](talkdesk_integration.md)
-* [3 - Billing of Calls based on Country and Phone Type | Call Billing Problem](call_billing.md)
+* [3 - Billing of Calls based on Country and Phone Type | Call Billing](call_billing.md)
 * [4 - Call Testing Service](call_billing.md)
 
 #### Frontend
-* [4 - SMS Support on Talkdesk](sms_support.md)
-* [5 - Ring Groups Interface](ring_groups.md)
+* [5 - SMS Support on Talkdesk](sms_support.md)
+* [6 - Ring Groups Interface](ring_groups.md)
+* [7 - Call List Filtering](ring_groups.md)
 
 #### DevOps
-* [6 - DevOps](devops.md)
+* [8 - DevOps](devops.md)
 
 #### Design / UX
-* [7 - More Flexible Business Hours - UX](business_hours.md)
-* [8 - Agent to Agent Calls - UI](agent_to_agent_calls.md)
+* [9 - More Flexible Business Hours - UX](business_hours.md)
+* [10 - Agent to Agent Calls - UX](agent_to_agent_calls.md)
 
-
+#### QA
 
 
 
