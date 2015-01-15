@@ -26,7 +26,7 @@ And what we expect you'll learn about us is:
 
 ## Next Steps
 
-1. Read the [Wiki](https://github.com/Talkdesk/talkdesk_problems/wiki) and choose a problem to solve
+1. Read the [list](problems/) and choose a problem to solve
 2. Clone this repository
 3. Open an Issue in your new repo with the problem you've chosen (can be used to discuss, ask questions, etc)
 4. Solve the problem any way you like, but please follow our Development practices.
@@ -34,7 +34,8 @@ And what we expect you'll learn about us is:
    so use it in which ever way you like.
 5. Have fun!
 
-*Note*: The git branch [basic-setup][1] contains a basic Ruby project setup
+*Note*: The git branches [backend-basic-setup][1] / [frontend-basic-setup][2] contain a basic project setup
 that you can use if you like.
 
-[1]:https://github.com/Talkdesk/talkdesk_problems/tree/basic-setup
+[1]:https://github.com/Talkdesk/challenge/tree/backend-basic-setup
+[2]:https://github.com/Talkdesk/challenge/tree/frontend-basic-setup
