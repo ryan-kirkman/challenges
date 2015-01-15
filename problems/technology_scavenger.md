@@ -4,7 +4,7 @@ In order to reach out to customers that would most likely benefit from using a s
 
 ## The Challenge
 
-Given a list of websites (http://cl.ly/0I0y2y0M110r), list all websites that use these technologies:
+Given a [list of websites](/problems/assets/technology%20scavenger/alexa1M.zip), list all websites that use these technologies:
 
 - Magento
 - Shopify
