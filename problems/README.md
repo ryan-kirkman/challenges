@@ -20,4 +20,4 @@ And remember, while solving a problem remember to communicate and share what you
 * [[Build a Talkdesk Integration]]
 * [[Billing of Calls based on Country and Phone Type|Call Billing Problem]]
 * [[SMS Support on Talkdesk]]
-* [[More Flexible Business Hours - UI]]
+* [[More Flexible Business Hours - UI]](https://github.com/Talkdesk/challenge/blob/master/problems/business_hours.md)
