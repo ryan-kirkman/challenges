@@ -16,9 +16,24 @@ And remember, while solving a problem remember to communicate and share what you
 
 ## Problems List
 
-* [Technology Scavenger](technology_scavenger.md)
-* [Build a Talkdesk Integration](talkdesk_integration.md)
-* [Billing of Calls based on Country and Phone Type|Call Billing Problem](call_billing.md)
-* [SMS Support on Talkdesk](sms_support.md)
-* [More Flexible Business Hours - UI](business_hours.md)
-* [Agent to Agent Calls - UI](agent_to_agent_calls.md)
+#### Backend
+* [1 - Technology Scavenger](technology_scavenger.md)
+* [2 - Build a Talkdesk Integration](talkdesk_integration.md)
+* [3 - Billing of Calls based on Country and Phone Type|Call Billing Problem](call_billing.md)
+
+#### Frontend
+* [4 - SMS Support on Talkdesk](sms_support.md)
+* [5 - Ring Groups Interface](ring_groups.md)
+
+#### DevOps
+* [6 - DevOps](devops.md)
+
+#### Design / UX
+* [7 - More Flexible Business Hours - UX](business_hours.md)
+* [8 - Agent to Agent Calls - UI](agent_to_agent_calls.md)
+
+
+
+
+
+
