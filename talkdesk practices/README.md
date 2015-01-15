@@ -1,3 +1,5 @@
+# Development Practices
+
 Here are some practices that we should all use throughout Talkdesk's codebase to keep things consistent and keep up the quality.
 
 * [Ship, ship, ship][5] but [we will not ship shit][11]
