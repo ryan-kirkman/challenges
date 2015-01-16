@@ -11,7 +11,7 @@ Outside of business hours the message is a bit different, something like:
 
 At the moment Talkdesk allows you to define your business hours the following way:
 
-http://cl.ly/image/3Z2E250C1B1o
+![business hours](/problems/assets/business%20hours/Screen%20Shot%202013-12-18%20at%2012.17.56.png)
 
 - You can specify the days of the week that you are open
 - You can set the working period that will apply to every selected day
