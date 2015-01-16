@@ -1,6 +1,6 @@
 # Call List Filtering
 
-Talkdesk is all about making and receiving calls. Once a User (also known as an Agent) has signed up for Talkdesk and has created their own account, they will then buy a new phone number. Using this number, the Agent is able to make and receive phone calls. The first screen someone sees after logging in to Talkdesk is the **Recent Calls** section: This section contains the history of previous calls that have been made, received and missed. 
+Talkdesk is all about making and receiving calls. Once a User (also known as an Agent) has signed up for Talkdesk and has created their own account, they will then buy a new phone number. Using this number, the Agent is able to make and receive phone calls. The first screen someone sees after logging in to Talkdesk is the **Recent Calls** section. This section contains the history of previous calls that have been made, received and missed. 
 
 For this challenge we want you to extend Talkdesk's functionality by improving the Related Calls to increase functionality and user-friendlyness.
 
