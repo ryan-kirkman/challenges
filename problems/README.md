@@ -33,6 +33,7 @@ And remember, while solving a problem remember to communicate and share what you
 #### Design / UX
 * [9 - More Flexible Business Hours - UX](business_hours.md)
 * [10 - Agent to Agent Calls - UX](agent_to_agent_calls.md)
+* [11 - Agents Management - UX/UI](agents_management.md)
 
 #### QA
 
