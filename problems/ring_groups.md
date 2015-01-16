@@ -1,6 +1,6 @@
 # Ring Groups
 
-Talkdesk is all about making and receiving calls. Once a User (also known as an Agent) has signed up for Talkdesk and has created their own account, they will then buy a new phone number. Using this number, the Agent is able to make and receive phone calls. 
+Talkdesk is all about making and receiving calls. Once a User (also known as an Agent) has signed up for Talkdesk and has created an account, he will then buy a new phone number. Using this number, the Agent is able to make and receive phone calls.
 
 Usually accounts have not one, but several Agents and they can be grouped so that each group answers calls from a different phone line. Although the concept of groups has existed since Talkdesk was created, this feature is not obvious to our users.
 Thus, we propose to tackle this challenge by creating a better interface which will be used to manage these group relations through a new entity called **ring groups**. 
