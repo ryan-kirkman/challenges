@@ -16,7 +16,7 @@ For this to be useful to customers, they need to be able to create these ring gr
 
 Using the background information we provide in the following section, please implement the functionality defined [here](/problems/assets/ring groups). We expect you to work on the interface to manage ring groups (the one highlighted in [this screen](/problems/assets/ring groups/challenge_implementation.png)), don't worry with the Talkdesk layout details and the context for the functionality.
 
-Bonus points if you use a JS Framework and many kudos if you add tests to your project.
+As you might have already noticed, we value beautiful code, be it Ruby, Javascript, HTML or CSS. Show us your skills! Bonus points if you use a JS Framework and many kudos if you add tests to your project.
 
 ## Background Information
 
