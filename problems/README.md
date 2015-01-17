@@ -17,26 +17,27 @@ And remember, while solving a problem remember to communicate and share what you
 ## Problems List
 
 #### Backend
-* [1 - Technology Scavenger](technology_scavenger.md)
-* [2 - Build a Talkdesk Integration](talkdesk_integration.md)
-* [3 - Billing of Calls based on Country and Phone Type | Call Billing](call_billing.md)
-* [4 - Call Testing Service](call_testing_service.md)
+* [Technology Scavenger](b1_technology_scavenger.md)
+* [Build a Talkdesk Integration](b2_talkdesk_integration.md)
+* [Billing of Calls based on Country and Phone Type](b3_call_billing.md)
+* [Call Testing Service](b4_call_testing_service.md)
 
-#### Frontend
-* [5 - SMS Support on Talkdesk](sms_support.md)
-* [6 - Ring Groups Interface](ring_groups.md)
-* [7 - Call List Filtering](call_list_filtering.md)
+### Frontend
 
-#### DevOps
-* [8 - DevOps](devops.md)
+* [SMS Support on Talkdesk](f1_sms_support.md)
+* [Ring Groups Interface](f2_ring_groups.md)
+* [Call List Filtering](f3_call_list_filtering.md)
 
-#### Design / UX
-* [9 - More Flexible Business Hours - UX](business_hours.md)
-* [10 - Agent to Agent Calls - UX](agent_to_agent_calls.md)
-* [11 - Agents Management - UX/UI](agents_management.md)
+### DevOps
 
-#### QA
+* [Minecraft](d1_minecraft.md)
 
+### Design / UX
 
+* [More Flexible Business Hours - UX](u1_business_hours.md)
+* [Agent to Agent Calls - UX](u2_agent_to_agent_calls.md)
+* [Agents Management - UX/UI](u3_agents_management.md)
 
+### QA
 
+* Watch this space.
