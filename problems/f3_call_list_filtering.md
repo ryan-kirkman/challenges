@@ -39,3 +39,6 @@ Here is an example of an inbound call entry:
 
 *Final note*: If there's anything you don't understand or is ambiguous, open an issue in your repository with the question ;) 
 
+---
+
+[Go back to the Problems README](README.md)

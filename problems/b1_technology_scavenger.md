@@ -17,3 +17,7 @@ Given a [list of websites](/problems/assets/technology%20scavenger/alexa1M.zip),
 Note: assume that this list is updated daily and the list of technologies can be 100x bigger (the code needs to be as optimized as possible; new technologies need to be easy to add).
 
 *Final note*: If there's anything you don't understand or is ambiguous, open an issue in your repository with the question ;) 
+
+---
+
+[Go back to the Problems README](README.md)
