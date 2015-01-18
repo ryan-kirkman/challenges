@@ -12,7 +12,7 @@ Here are some practices that we should all use throughout Talkdesk's codebase to
 * Follow the [S.O.L.I.D][6] principles
 * Comment classes describing their responsibilities. Methods that accept options can also be commented, but other than that, no comments should be necessary, the close should be clean (read Chapter 4: Comments of Clean Code book).
   * If a comment is needed, explain *why?* and not *what* or *how*,unless it's an optimization, then it should be explained what's going on. But if code isn't clear enough to be understood, rewrite it.
-* Try use [T.R.U.E.][7] to evaluate your design
+* Use [T.R.U.E.][7] to evaluate your design
 * Use Github Flow: [Github Flow][1] and [How Github uses Github to make Github][2]
   * Avoid committing to master
   * Create topic branch for each feature
@@ -20,15 +20,22 @@ Here are some practices that we should all use throughout Talkdesk's codebase to
 * Take into Account [these][3] good practice tips
 * Thinking is just as important as DOing
 * Always aim to leave the codebase in a better condition that it was when implementing a feature/fixing a bug. Stay away from ugly hacks and "martelanços"
-* Follow the [[Code Style Guidelines]]
-* Don't stop [[learning|Learning resources]]
+* Follow the [Code Style Guidelines](style_guidelines.md)
+* Don't stop [learning](learning_resources.md)
 
 Must reads:
 
 * [Practical Object-Oriented Design in Ruby][10]
+
+Very highly recommended reads:
+
 * [Clean Code][8]
 * [The Art of Unit Testing][9] (the *very least* chapter 7)
 * [The Pragmatic Programmer][4]
+
+---
+
+[Go back to the README](../README.md)
 
 [1]:http://scottchacon.com/2011/08/31/github-flow.html
 [2]:http://zachholman.com/talk/how-github-uses-github-to-build-github
