@@ -18,7 +18,7 @@ In order to understand a bit more context about this problem, you can find the r
 		
 User Stories	
 	
-- As the account administrator, I want to be able to scope Agents list in order to view only Agents with the "Sales Enterprise" role.
+- As the account administrator, I want to be able to scope Agents list in order to view only Agents with the "Sales Enterprise" Role.
 - As the account administrator I want to be able to find an Agent by its Name in order to add him to the "New York" Ring Group.  
 - As the account administrator, I want to be able to update agents meta information in bulk in order to assign multiple users to a Ring Group in one page.
 - As the account administrator, I want to be able to view a list of agents from a preset in order to assign them to a Role based on a previous filter (filter by Ring Group), in one page.
