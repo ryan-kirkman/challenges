@@ -14,7 +14,7 @@ The Agent management page of Talkdesk, which is tipically accessible to Administ
 
 The focus of this challenge is to access not only interface design skills but the way big data management is considered and the consequent paradigms on interaction design.
 
-In order to understand a bit more context about this problem, you can find the representation of one of user segments through a persona here [link](/problems/assets/agents management/persona.pdf) and some user stories:
+In order to understand a bit more context about this problem, you can find the representation of one of our user segments through a persona here [link](/problems/assets/agents management/persona.pdf) and some user stories:
 		
 User Stories	
 	
