@@ -24,20 +24,35 @@ When a call finishes, the information that's available when deciding how much to
 
 * The duration of the call (in seconds)
 * The Talkdesk Telephone's number that received the inbound call
-* The external phone number that was used to forward the call (only defined when the User answers a call on their cellphone or office landline rather than answering in the browser)
+* The external phone number that was used to forward the call (only defined when the User answers a call on their cellphone or office landline, otherwise it means they answered on their web browser)
 * The corresponding Talkdesk account
+
+### Objectives
+
+Build a command line app that can remove credits from a given account:
+
+    $ call_billing charge <account_name> <talkdesk_phone_number> <customer_phone_number> <forwarded_phone_number (optional)>
+
+And that can list the charges for the given account:
+
+    $ call_billing list <account_name>
 
 ### Formula
 
-To calculate the price per minute for inbounds is as follows: `Talkdesk_Number_Cost + External_Number_Cost + Profit_Margin`
+To calculate the price per minute for inbounds is as follows: `talkdesk_number_cost + external_number_cost + profit_margin`
 
-The `Talkdesk_Number_Cost` should be set to 1c except for two cases: US and UK Toll free numbers which should be set to 3c and 6c, respectively.
+The `talkdesk_number_cost` should be set to 1c except for two cases: US and UK Toll free numbers which should be set to 3c and 6c, respectively.
 
-The `External_Number_Cost` should be set to 1c if the call is answered in the web browser, otherwise the price to charge should be the same as Twilio charges for calls to that number.
+The `external_number_cost` should be set to 1c if the call is answered in the web browser, otherwise the price to charge should be the same as Twilio charges for calls to that number.
+
+#### Additional Notes
+
+- If you're having fun and want to take this a step further, why not build a web based system to do the same as the above? Or maybe you'd prefer just having the web-based system, that's cool as well
+- At Talkdesk we use usually use MongoDB and Reids, but feel free to use another data store or even a simple file store
 
 ### Background Information
 
-The way this is actually done in Talkdesk is by using RabbitMQ to send events. The types of events that are emitted for calls are:
+The way this is actually done in Talkdesk is by using RabbitMQ PubSub capaibilites to emit events and have the appropirate system consume those events. A sample of events that you'll see pass through are:
 
 * **call_initiated** - When a Customer starts a call to a Talkdesk, before it actually starts to ring
 * **call_answered** - When an Agent picks up a call
@@ -47,7 +62,7 @@ The way this is actually done in Talkdesk is by using RabbitMQ to send events. T
 
 This problem is basically only dealing with a **call_finished** event.
 
-Here's an example of the data the event has (they come in JSON):
+Here's small example of the data the event has (they come in JSON):
 
 ```json
 {
@@ -55,30 +70,13 @@ Here's an example of the data the event has (they come in JSON):
   "type":"in",
   "duration":"91",
   "account_id":"4f4a37a201c642014200000c",
-  "contact_id":"505de7e5f857d94a3d000001",
   "call_id":"9d036a18-0986-11e2-b2c6-3d435d81b7fd",
   "talkdesk_phone_number":"+14845348611",
   "customer_phone_number":"+351961918192",
   "forwarded_phone_number":null,
-  "agent_id":"4f78ded32b0ac00001000001",
-  "previous_agent_id":"5054d89ec7573f082a000c9e",
-  "customer_id":"505de7e5f857d94a3d000001",
-  "customer":null,
-  "record":"http://s3.amazonaws.com/plivocloud/9ff87998-0986-11e2-aed8-002590513972.mp3",
   "timestamp":"2012-09-28T16:09:07Z"
 }
 ```
-
-## Other Requirements
-
-* To start, you can make a command-line program that can simulate an end of call and make a charge to the Account's credits.
-* As a bonus, make an HTTP interface that can accept requests notifying this system that a call has ended and that it needs to bill an account for the call.
-
-## Environment
-
-We use MongoDB as our main database, so please do the same. (We have systems that use Mongoid (ORM) and others that use the MongoDB ruby driver directly, but use whichever you prefer).
-
-[1]:http://www.twilio.com/pricing/international-calling-rates
 
 *Final note*: If there's anything you don't understand or is ambiguous, open an issue in your repository with the question ;)
 

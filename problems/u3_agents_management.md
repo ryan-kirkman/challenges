@@ -1,4 +1,4 @@
-## Agents Management
+# Agents Management
 
 Talkdesk is all about making and receiving calls. Once a User (also known as an Agent) has signed up for Talkdesk and has created an account, he will then buy a new phone number. Using this number, the Agent is able to make and receive phone calls.
 
