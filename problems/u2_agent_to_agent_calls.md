@@ -1,6 +1,6 @@
-## Agent to Agent Calls
+# Agent to Agent Calls
 
-Talkdesk currently allows users to make and receive calls directly from the browser. When they sign in to Talkdesk there is a “call bar" that allows them to call other contacts. They can do it directly from the Talkdesk profile or use the keypad to dial a phone number directly.
+Talkdesk currently allows users to make and receive calls directly from the browser. When they sign in to Talkdesk there is a "call bar" that allows them to call other contacts. They can do it directly from the Talkdesk profile or use the keypad to dial a phone number directly.
 
 - http://cl.ly/image/0w3N0r2Y023E
 - http://cl.ly/image/2J182O3n0M25

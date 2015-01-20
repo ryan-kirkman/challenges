@@ -1,27 +1,27 @@
 # More Flexible Business Hours - UI
 
-Talkdesk is about making and receiving calls. Business hours are a key concept for Talkdesk customers as the define if the call is routed to agents or not, as well as the messages that play. 
+Talkdesk is about making and receiving calls. Business hours are a key concept for Talkdesk customers as the define if the call is routed to agents or not, as well as the messages that play.
 
 For example if you call during normal business hours you may hear:
-- “Welcome to Company X, please hold while we connect you to the next available agent”. 
+
+- "Welcome to Company X, please hold while we connect you to the next available agent".
 
 Outside of business hours the message is a bit different, something like:
-- “Please leave a message after the beep, or contact us during business hours Monday through Friday between 9am and 5pm Eastern Standard Time. Thank you!”.
 
+- "Please leave a message after the beep, or contact us during business hours Monday through Friday between 9am and 5pm Eastern Standard Time. Thank you!".
 
 At the moment Talkdesk allows you to define your business hours the following way:
 
-![business hours](/problems/assets/business%20hours/Screen%20Shot%202013-12-18%20at%2012.17.56.png)
+![business hours](assets/business%20hours/Screen%20Shot%202013-12-18%20at%2012.17.56.png)
 
 - You can specify the days of the week that you are open
 - You can set the working period that will apply to every selected day
-
 
 For this challenge we want you to extend Talkdesk's functionality to meet the request of some customers that have asked for a more flexible business hour solution.
 
 ## The Problem
 
-Example use case: a company is opened from monday-friday 9am - 6pm and on saturday from 10am to 4pm (on saturday they close during the lunch period, from 1pm to 2pm). 
+Example use case: a company is opened from Monday-Friday 9am - 6pm and on Saturday from 10am to 4pm (on Saturday they close during the lunch period, from 1pm to 2pm). 
 
 So companies want to define:
 - different business hours per day of the week

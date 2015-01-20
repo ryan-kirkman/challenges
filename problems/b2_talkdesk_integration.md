@@ -6,7 +6,7 @@ Talkdesk already integrates with some of this systems - Google Contacts, Salesfo
 
 The commom operations when integrating Talkdesk and a 3rd party system are:
 
-#### Contact retrieving:
+#### Contact retrieval:
 
 Contacts from the external integration are synchonized with Talkdesk giving our customers:
 
@@ -15,7 +15,7 @@ Contacts from the external integration are synchonized with Talkdesk giving our 
 
 ![Contact Info](http://www.talkdesk.com/wp-content/uploads/2013/01/customer_profile_information.png)
 
-#### Interactions retieving:
+#### Interaction retrieval:
 
 Ability to see previous interactions the customer had with the company (previous emails, support requests, meetings, calls, web chats or any other interaction that is available in the target system).
 
@@ -23,7 +23,7 @@ Ability to see previous interactions the customer had with the company (previous
 
 ![Interaction Sync](http://www.talkdesk.com/wp-content/uploads/2013/01/activity_from_external_integrations.png)
 
-#### Actions execution:
+#### Action execution:
 
 Add support to send information to the destination system. This gives:
 
@@ -37,7 +37,7 @@ For a more complete overview of the flow, see this little video which should be 
 
 ## The Challenge
 
-Your mission, should you choose to accept it, involves building an integration for Talkdesk so that it can use Intercom. This is what we would have to do to integrate with some other system or what a client would to if they wanted Talkdesk to retrieve data from their own custom systems.
+Your mission, should you choose to accept it, involves building an integration for Talkdesk (for a system such as Intercom or any other if you like). This is what we would have to do to integrate with some other system or what a client would to if they wanted Talkdesk to retrieve data from their own custom systems.
 
 Next steps:
 
@@ -46,10 +46,6 @@ Next steps:
   - Implement contact synchronization
   - Implement 1 or 2 actions
   - Implement interaction retrieval
-
-## Environment
-
-We use MongoDB as our main database, so please do the same. (We have systems that use Mongoid (ORM) and others that use the MongoDB ruby driver directly, but use whichever you prefer).
 
 *Final note*: If there's anything you don't understand or is ambiguous, open an issue in your repository with the question ;)
 
