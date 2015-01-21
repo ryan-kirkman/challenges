@@ -11,7 +11,7 @@ follow them as best as you can.
 And remember, while solving a problem remember to communicate and share what
 you're thinking, even if you think it's something not important or you're
 creating too much "noise." Rather err on the side of being "verbose" than going
-into pure stealth mode.
+into pure stealth mode. You can reach us via [hipchat](http://www.hipchat.com/gP8zhqbmd) too.
 
 ### Things we value
 
