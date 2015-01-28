@@ -31,7 +31,7 @@ When a call finishes, the information that's available when deciding how much to
 
 Build a command line app that can remove credits from a given account:
 
-    $ call_billing charge <account_name> <talkdesk_phone_number> <customer_phone_number> <forwarded_phone_number (optional)>
+    $ call_billing charge <call_duration> <account_name> <talkdesk_phone_number> <customer_phone_number> <forwarded_phone_number (optional)>
 
 And that can list the charges for the given account:
 
