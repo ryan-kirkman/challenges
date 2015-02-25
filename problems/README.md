@@ -30,6 +30,7 @@ into pure stealth mode. You can reach us via [hipchat](http://www.hipchat.com/gP
 - [Build a Talkdesk Integration](b2_talkdesk_integration.md)
 - [Billing of Calls based on Country and Phone Type](b3_call_billing.md)
 - [Call Testing Service](b4_call_testing_service.md)
+- [Phone Number Geolocation](b5_phone_number_geolocation.md)
 
 ### Frontend
 
