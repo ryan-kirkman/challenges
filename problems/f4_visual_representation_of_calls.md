@@ -4,7 +4,7 @@ We deal with a lot of calls. Once a User has signed up for Talkdesk and have cre
 
 ## The Problem
 
-At the moment there is a considerable amount of calls happening at the same time. We would like to have a visual representation of the calls that are currently in progress, including origin and destination. Here is a visual toll that can be used: http://www.chromeexperiments.com/globe and a video that shows the idea: http://cl.ly/3t1Y3s271g2Q
+At the moment there is a considerable amount of calls happening at the same time. We would like to have a visual representation of the calls that are currently in progress, including origin and destination. Here is a visual tool that can be used: http://www.chromeexperiments.com/globe and a video that shows the idea: http://cl.ly/3t1Y3s271g2Q
 
 ## Background Information
 
