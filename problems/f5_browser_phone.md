@@ -24,3 +24,9 @@ Twilio provides a javascript WebRTC client that allows you to send and receive s
 We'll set you up with an account and guide you around the API for the basics, along with common pitfalls we faced when building our product, but the rest is up to you!
 
 Good luck, and call me maybe!
+
+*Final note*: If there's anything you don't understand or is ambiguous, open an issue in your repository with the question ;)
+
+---
+
+[Go back to the Problems README](README.md)
