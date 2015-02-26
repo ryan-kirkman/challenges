@@ -14,7 +14,7 @@ Twilio provides a sandbox account when you sign up, but if for some reason you'r
 
 ## Objective
 
-Build a service so that we can dial a Twilio phone number, speak to the system, and have it play it pack to us.
+Build a service so that we can dial a Twilio phone number, speak to the system, and have it play it back to us.
 
 ### Additional Notes
 
