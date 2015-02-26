@@ -38,6 +38,7 @@ into pure stealth mode. You can reach us via [hipchat](http://www.hipchat.com/gP
 - [Ring Groups Interface](f2_ring_groups.md)
 - [Call List Filtering](f3_call_list_filtering.md)
 - [Visual Representation of In Progress Calls](f4_visual_representation_of_calls.md)
+- [Browser Telephone](f5_browser_phone.md)
 
 ### DevOps
 
