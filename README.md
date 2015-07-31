@@ -5,14 +5,14 @@ of various problems that have come up while working at Talkdesk.
 
 You're most likely already participating in our recruiting process, but if you
 stumbled here by chance and would like to work with us, please do check out our
-open positons available at http://www.talkdesk.com/jobs/
+open positions available at http://www.talkdesk.com/jobs/
 
 If you're in the process, then by now we have got a better appreciation of who
 you are and now we would like to get a feel for the way you work. To do this, we
 would like to challenge you to collaborate with us on solving a problem that
 we've encountered before.
 
-Please understand that this is not a test or an exame, here there are no right and wrong
+Please understand that this is not a test or an exam, here there are no right and wrong
 answers. This is just an opportunity for us to collaborate together and solve an interesting
 problem. You also can get an understanding of the type of things we have to do in Talkdesk,
 being a startup and all.
@@ -34,7 +34,7 @@ And what we expect you'll learn about us is:
 0. You'll be given a link to a private repository which you can clone and work
    on to submit your challenge.
 0. Open an Issue in your new repo with the problem you've chosen. You can use this
-   issue to disccuss the problem at hand or for asking questions.
+   issue to discuss the problem at hand or for asking questions.
 0. Solve the problem any way you like, but do the best you can and try to take
    into consideration some of our [development practices](docs/development_practices.md).
    This means you can use any language, tools, gems, etc. you need to get the job

@@ -8,7 +8,7 @@ The commom operations when integrating Talkdesk and a 3rd party system are:
 
 #### Contact retrieval:
 
-Contacts from the external integration are synchonized with Talkdesk giving our customers:
+Contacts from the external integration are synchronized with Talkdesk giving our customers:
 
 - the ability to call contacts they already have in another service.
 - recognition of the person who is calling if the contact exists in the integrated system

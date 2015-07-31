@@ -48,11 +48,11 @@ The `external_number_cost` should be set to 1c if the call is answered in the we
 #### Additional Notes
 
 - If you're having fun and want to take this a step further, why not build a web based system to do the same as the above? Or maybe you'd prefer just having the web-based system, that's cool as well
-- At Talkdesk we use usually use MongoDB and Reids, but feel free to use another data store or even a simple file store
+- At Talkdesk we use usually use MongoDB and Redis, but feel free to use another data store or even a simple file store
 
 ### Background Information
 
-The way this is actually done in Talkdesk is by using RabbitMQ PubSub capaibilites to emit events and have the appropirate system consume those events. A sample of events that you'll see pass through are:
+The way this is actually done in Talkdesk is by using RabbitMQ PubSub capaibilites to emit events and have the appropriate system consume those events. A sample of events that you'll see pass through are:
 
 * **call_initiated** - When a Customer starts a call to a Talkdesk, before it actually starts to ring
 * **call_answered** - When an Agent picks up a call

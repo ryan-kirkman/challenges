@@ -9,7 +9,6 @@ Given a [list of websites](/problems/assets/technology%20scavenger/alexa1M.zip),
 - Magento
 - Shopify
 - BigCommerce
-
 - Zendesk
 - Desk
 - Freshdesk
