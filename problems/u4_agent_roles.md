@@ -2,13 +2,14 @@
 
 Call Center team members have different roles and Administrators like to customize their dashboards accordingly. Talkdesk wants to give their users the ability to define and edit Team Roles and configure unique Talkdesk settings for each team role so that members assigned to those roles will have customized dashboards and functionality accordingly.
 
-The 3 default roles are Agent, Administrator and Supervisor. Usually call center companies have different teams within the application, for example sales and support so it may make sense to create different roles for the Support Supervisor and a Sales Rep.
+The 3 default roles are Agent, Administrator and Supervisor. Usually call center companies have different teams within the application, for example, sales and support, so it may make sense to create different roles for the Support Supervisor and a Sales Rep.
 
 Here are some user stories to consider:
 - As an Administrator, I want to make sure only Supervisors are able to see call recordings.
 - As a Supervisor, I want to be able to access my team metrics only. Given that I am a Support Supervisor, I don’t want my dashboards to display sales data.
 - As an Administrator I want to be able to add a new profile for the Billing department that has access to the billing section only.
 - As a Supervisor for the Sales team, I want to disable the Disposition Popup functionality so that I can optimize the availability to receive calls.
+- As a Sales Representative, I want to be able to only see calls from the Sales team. Given I am not a Supervisor, I do not want to see detailed metrics.
 
 ### Deliverables:
 - A brief description about the process and methodology you would follow to solve the challenge and the major decisions you have made
