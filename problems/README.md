@@ -48,6 +48,7 @@ into pure stealth mode. You can reach us via [hipchat](http://www.hipchat.com/gP
 - [More Flexible Business Hours - UX](u1_business_hours.md)
 - [Agent to Agent Calls - UX](u2_agent_to_agent_calls.md)
 - [Agents Management - UX/UI](u3_agents_management.md)
+- [Agent Roles - UX/UI](u4_agent_roles.md)
 
 ### QA
 
