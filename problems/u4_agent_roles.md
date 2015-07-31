@@ -2,7 +2,7 @@
 
 Call Center team members have different roles and Administrators like to customize their dashboards accordingly. Talkdesk wants to give their users the ability to define and edit Team Roles and configure unique Talkdesk settings for each team role so that members assigned to those roles will have customized dashboards and functionality accordingly.
 
-The 3 default roles are Agent, Administrator and Supervisor. Usually call center companies have different teams within the application, for example sales and support.
+The 3 default roles are Agent, Administrator and Supervisor. Usually call center companies have different teams within the application, for example sales and support so it may make sense to create different roles for the Support Supervisor and a Sales Rep.
 
 Here are some user stories to consider:
 - As an Administrator, I want to make sure only Supervisors are able to see call recordings.
@@ -12,8 +12,8 @@ Here are some user stories to consider:
 
 ### Deliverables:
 - A brief description about the process and methodology you would follow to solve the challenge and the major decisions you have made
-- A mockup with the proposed solution, including the source files. You may want to consider some deliverables like: task-flow analysis diagrams, interactive rapid prototypes, visual translation (hi-fidelity mockups) and the html/css for the interfaces.
-
+- You may want to consider some deliverables like: task-flow analysis diagrams, interactive rapid prototypes, visual translation (hi-fidelity mockups) and the html/css for the interfaces.
+- Please include the source files.
 
 ## Background Information
 
@@ -24,7 +24,7 @@ You can use the following credentials to login and explore Talkdesk:
 - URL: [https://yourcompany.mytalkdesk.com/](https://yourcompany.mytalkdesk.com/)
 - Credentials: please use the hipchat channel and ask for it
 
-*Final note*: If there's anything you don't understand or is ambiguous, open an issue in your repository with the question ;) 
+*Final note*: If there's anything you don't understand or is ambiguous, open an issue in your repository with the question ;)
 
 ---
 
