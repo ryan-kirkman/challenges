@@ -41,7 +41,7 @@ into pure stealth mode. You can reach us via [hipchat](http://www.hipchat.com/gP
 
 ### DevOps
 
-- [Minecraft](d1_minecraft.md)
+- [Elasticsearch](d2_elasticsearch.md)
 
 ### Design / UX
 
