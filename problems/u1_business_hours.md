@@ -10,7 +10,9 @@ Outside of business hours the message is a bit different, something like:
 
 - "Please leave a message after the beep, or contact us during business hours Monday through Friday between 9am and 5pm Eastern Standard Time. Thank you!".
 
-At the moment Talkdesk allows you to define your business hours the following way:
+Currently in Talkdesk, you can configure business hours for the entire deployment or by phone number. You can choose start and end times and select to apply business hours by days of the week.
+
+While this implementation works for simple use cases, it does not support common scenarios like defining a lunch period for your business or business hours which extend to the following day.
 
 ![business hours](assets/business%20hours/Screen%20Shot%202013-12-18%20at%2012.17.56.png)
 
@@ -19,14 +21,21 @@ At the moment Talkdesk allows you to define your business hours the following wa
 
 For this challenge we want you to extend Talkdesk's functionality to meet the request of some customers that have asked for a more flexible business hour solution.
 
-## The Problem
+## Personas
+- Administrator - owns configuration of the entire Talkdesk deployment
+- Director/Supervisor - owns configuration of a particular segment of Talkdesk users
+- Agent - daily user of Talkdesk
+- End Customer/Caller
 
-Example use case: a company is opened from Monday-Friday 9am - 6pm and on Saturday from 10am to 4pm (on Saturday they close during the lunch period, from 1pm to 2pm). 
+## Customer Use Cases
 
-So companies want to define:
-- different business hours per day of the week
-- lunch periods 
-- holidays (during which they can be closed or working for a different period)
+Yamsafer’s business hours are from 8am to 2am the following day. The administrator would like to schedule business hours in Talkdesk so customers calling inside of business hours will be routed to agents accordingly and customers calling outside of business hours will hear an out of office message.
+
+Selectra’s administrator would like to schedule business hours to include a one-hour lunch break from noon to 1pm so that all agents are free to go on break at that time.
+
+Anki’s administrator (based in the U.S.) would like to schedule business hours for their three call centers based in Florida, the Philippines, and Guatemala. 
+
+Dropbox wants to be able to define holiday hours so on December 25th and January 1st when their offices are closed the customers will hear a proper message.
 
 Using the background information we provide in the following section and taking into consideration the layout/structuring of Talkdesk, please present us with a solution that will allow customers to specify more flexible business hours.
 
