@@ -14,7 +14,7 @@ Currently in Talkdesk, you can configure business hours for the entire deploymen
 
 While this implementation works for simple use cases, it does not support common scenarios like defining a lunch period for your business or business hours which extend to the following day.
 
-![business hours](assets/business%20hours/Screen%20Shot%202013-12-18%20at%2012.17.56.png)
+![business hours](https://s3.amazonaws.com/f.cl.ly/items/0w2k3Q28093M2m1A2x38/Screenshot%202015-08-28%2020.33.26.png)
 
 - You can specify the days of the week that you are open
 - You can set the working period that will apply to every selected day
@@ -35,7 +35,7 @@ Selectra’s administrator would like to schedule business hours to include a on
 
 Anki’s administrator (based in the U.S.) would like to schedule business hours for their three call centers based in Florida, the Philippines, and Guatemala. 
 
-Dropbox wants to be able to define holiday hours so on December 25th and January 1st when their offices are closed the customers will hear a proper message.
+Ziprecruiter admins would like to schedule holiday hours in advance. This includes both reduced hours due as well as business closures depending on the holiday.
 
 Using the background information we provide in the following section and taking into consideration the layout/structuring of Talkdesk, please present us with a solution that will allow customers to specify more flexible business hours.
 
