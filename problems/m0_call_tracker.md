@@ -4,13 +4,12 @@ At Talkdesk we want to offer our users the ability to track their outgoing calls
 
 Whenever a user makes an outgoing call or sends an sms, our app should register it and inform the talkdesk server of this occurrence.
 The record should include the time, the destination phone number, the current user location (does not need to be very precise) and the network type the user is on.
-Please note that the user can be offline (no internet connection) and still make calls or send sms.
-Probably you have to create a temporary local db.
+Please note that the user can be offline (no internet connection) and still make calls or send sms. We would like for the server to be notified of those events when the device comes online.
 
 Visually, the app should have a simple single screen UI where it can turn on/off the call and sms tracking.
 In the same screen it should be able to see how many calls/sms were tracked by Talkdesk.
 
-Assume that a user can have the app installed in several phones, and as so the local database does not provide the *real* value. You have to ask the server.
+Assume that a user can have the app installed in several phones, and these counters should be an aggregate of all the devices, rather than only the device's local counters.
 
 ## Objectives
 
