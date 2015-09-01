@@ -89,7 +89,7 @@ As you can see it is a really simple [Flask](http://flask.pocoo.org/) app with t
 
 To run the script just do *python filename.py*. It will start the rest server running on port: **8888**.
 
-Feel free to ignore it, change it or use some online test service that allows to quickly mock rest endpoints.
+Feel free to ignore it, change it or use some online test service that allows to quickly "fake" the rest endpoints.
 
 **Final note**: If there's anything you don't understand or is ambiguous, open an issue in your repository with the question.
 Good communication is a plus ;)
