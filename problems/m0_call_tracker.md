@@ -34,42 +34,41 @@ Build an android application that:
 
 ## Fake REST server
 
-If you want for this challenge, you can use this "fake" rest server:
+If you want for this challenge, you can use this "fake" rest server in python:
 
 ```python
 from flask import Flask
 from flask import request
 from flask import Response
+import json
 
 app = Flask(__name__)
 
 tracked_calls = 0
-tracked_smss = 0
+tracked_sms = 0
 
 @app.route('/call', methods=['GET'])
 def list_calls():
-    global tracked_calls
     print request.args
-    return Response(tracked_calls)
+    return Response(json.dumps({'calls': tracked_calls}))
 
 @app.route('/sms', methods=['GET'])
 def list_sms():
-    global tracked_calls
     print request.args
-    return Response(tracked_sms)
+    return Response(json.dumps({'sms': tracked_sms}))
 
 @app.route('/call', methods=['POST'])
 def add_call():
     global tracked_calls
     tracked_calls += 1
-    r = Response("Added calls")
+    r = Response(json.dumps({'result': "Added call"}))
     return r
 
 @app.route('/sms', methods=['POST'])
 def add_sms():
     global tracked_sms
     tracked_sms += 1
-    r = Response("Added sms")
+    r = Response(json.dumps({'result': "Added sms"}))
     return r
 
 if __name__ == '__main__':
@@ -80,7 +79,7 @@ As you can see it is a really simple [Flask](http://flask.pocoo.org/) app with t
 
 **Get**
  * **/call** - Returns the number of calls tracked by the server
- * **/sms*** - Returns the number of smss tracked by the server
+ * **/sms** - Returns the number of smss tracked by the server
 
 **Post**
  * **/call** - Uploads a new call metadata to the server (it is ignoring the metadata and just increments call count by one)
