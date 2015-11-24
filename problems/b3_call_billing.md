@@ -8,13 +8,13 @@ For this challenge we'll just focus on the billing of inbound calls.
 
 ## The Problem
 
-There are various events that occur during the lifetime of a call. Upon received a call finished event we need to bill an Account's credits based on:
+There are various events that occur during the lifetime of a call. When the `call_finished` event is triggered we need to bill an Account's credits based on:
 
 * The call's duration
 * The type of the Talkdesk number that received the call
 * If the call was forwarded to a User's external number, then the price of the call to the specified country needs to be considered
 
-The price we must charge must be [Twilio's price][1] plus, for example, 5 cents (See Formula section). You can find a `.csv` file with the prices [here](/problems/assets/call%20billing/Twilio%20-%20Voice%20Prices.csv).
+The price we charge must be [Twilio's price](https://www.twilio.com/voice/pricing) plus a little margin, like 5 cents (See [Formula section](#formula)). You can find a `.csv` file with the prices [here](/problems/assets/call%20billing/Twilio%20-%20Voice%20Prices.csv).
 
 In some cases, we might like to change the margin depending on our Client (for example, reduce the margin if they use a lot of minutes per month).
 
@@ -62,7 +62,7 @@ The way this is actually done in Talkdesk is by using RabbitMQ PubSub capaibilit
 
 This problem is basically only dealing with a **call_finished** event.
 
-Here's small example of the data the event has (they come in JSON):
+Here's a small example of the data the event has (they come in JSON):
 
 ```json
 {
