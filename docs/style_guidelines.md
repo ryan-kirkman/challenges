@@ -45,7 +45,7 @@ be used when there are arguments:
 ```
 
 Another case where they should be included is when a method call without
-parenthesis has "already been used," so if you call another method, it needs to
+parenthesis has "already been used", so if you call another method, it needs to
 use parenthesis if it has arguments:
 
 ```ruby
@@ -61,7 +61,7 @@ in order to make it clear straight away when a block is being used or if it's
 data structure (Hash or Array), use the follow conventions:
 
 ```ruby
-{ telephones: { '$in' => contact.telephones } } # This kinda looks like a blok
+{ telephones: { '$in' => contact.telephones } } # This kinda looks like a block
 {telephones: {'$in' => contact.telephones}} # This is definately not a block
 {telephones: {'$in' => [telephone1, telephone2]}} # Same thing with array [] so its consistent with hashes
 foo { bar } # This is definitely a method call that's passing a block
