@@ -11,7 +11,7 @@ Here are some practices that we should all use throughout Talkdesk's codebase to
   * 4 - Minimizes the number of classes and methods
 * Follow the [S.O.L.I.D][6] principles
 * Comment classes describing their responsibilities. Methods that accept options can also be commented, but other than that, no comments should be necessary, the close should be clean (read Chapter 4: Comments of Clean Code book).
-  * If a comment is needed, explain *why?* and not *what* or *how*,unless it's an optimization, then it should be explained what's going on. But if code isn't clear enough to be understood, rewrite it.
+  * If a comment is needed, explain *why?* and not *what* or *how*, unless it's an optimization, then it should be explained what's going on. But if code isn't clear enough to be understood, rewrite it.
 * Use [T.R.U.E.][7] to evaluate your design
 * Use Github Flow: [Github Flow][1] and [How Github uses Github to make Github][2]
   * Avoid committing to master
@@ -30,7 +30,7 @@ Must reads:
 Very highly recommended reads:
 
 * [Clean Code][8]
-* [The Art of Unit Testing][9] (the *very least* chapter 7)
+* [The Art of Unit Testing][9] (at the *very least* chapter 7)
 * [The Pragmatic Programmer][4]
 
 ---
