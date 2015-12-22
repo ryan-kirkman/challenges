@@ -39,7 +39,7 @@ And what we expect you'll learn about us is:
    into consideration some of our [development practices](docs/development_practices.md).
    This means you can use any language, tools, libraries, etc. you need to get the job
    done with (although please don't choose something too esoteric as we need to be
-   able to understand the great work you'll do :smiley: - the languages our team is familiar with are: Ruby, JavaScript, Java, C#, C, C++, PHP, Python, Node, Elixir, Clojure and Go - if you want to do it in a different language, please check with us first).
+   able to understand the great work you'll do :smiley: - the languages our team is familiar with are: Ruby, JavaScript, Java, C#, C, C++, PHP, Python, Node, Elixir and Scala - if you want to do it in a different language, please check with us first).
 0. As is mentioned in the [development practices](docs/development_practices.md), you should be doing the development of this in a topic branch. Once you have something in your branch, you can open a Pull Request (to your own master branch) any time you like. You can use this pull request to discuss something code specific, or if you'd like some feedback on your code.
 0. Once you have something more substantial to show, make sure you have a pull request open so that a code review can be performed within it.
 0. Have fun!
