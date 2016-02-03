@@ -13,7 +13,7 @@ Contacts from the external integration are synchronized with Talkdesk giving our
 - the ability to call contacts they already have in another service.
 - recognition of the person who is calling if the contact exists in the integrated system
 
-![Contact Info](http://www.talkdesk.com/wp-content/uploads/2013/01/customer_profile_information.png)
+![Contact Info](assets/integration/customer_profile_information.png)
 
 #### Interaction retrieval:
 
@@ -21,7 +21,7 @@ Ability to see previous interactions the customer had with the company (previous
 
 - all the information about the customer is presented in a single interface to the agent that picks up the phone
 
-![Interaction Sync](http://www.talkdesk.com/wp-content/uploads/2013/01/activity_from_external_integrations.png)
+![Interaction Sync](assets/integration/activity_from_external_integrations.png)
 
 #### Action execution:
 
@@ -29,7 +29,7 @@ Add support to send information to the destination system. This gives:
 
 - flexibility to create contacts, support requests, etc, in the target system without having to open another system
 
-![Action Execution](http://www.talkdesk.com/wp-content/uploads/2013/04/highrise_integration_one_interface.png)
+![Action Execution](assets/integration/highrise_integration_one_interface.png)
 
 Not every integration has these 3 operations available. For example, Google Contacts only supports contact synchronization. Other more advanced systems support the 3 operations.
 
