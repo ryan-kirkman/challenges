@@ -7,6 +7,8 @@ The test case will be having two instances of the app talking to each other (ie,
 
 You are free to take the options regarding UI layout and app navigation that you think are the most suited.
 
+The challenge can be solved either in Objective-C or Swift. If you choose Swift *please include also some significant* **Objective-C** *portion of source code*.
+
 ## Requirements
 
 * As a user I can make outbound phone calls.
@@ -17,7 +19,7 @@ You are free to take the options regarding UI layout and app navigation that you
 * As the application I record data regarding all calls in a roster.
 * As the application I persist the call roster between sessions.
 
-## Simplifications
+## Assumptions
 
 1. Your app must use **Twilio** for the voice calls. Use their [SDK for iOS](https://www.twilio.com/docs/api/client/ios) to provide integration. 
 2. You'll need to set up a server to back up your iOS app. Twilio offers a [ready-made solution](https://github.com/twilio/mobile-quickstart) that you can use. You are advised to host it on a publicly available solution like [Heroku](https://heroku.com/).
