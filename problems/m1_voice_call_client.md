@@ -1,13 +1,11 @@
 # Talkdesk iOS voice call client
 
 
-You iOS challenge at Talkdesk will be to build an app that supports voice calls plus some convenience features as described on the Requirements section below.
+Your iOS challenge at Talkdesk will be to build an app that supports voice calls plus some convenience features as described on the Requirements section below.
 
-The test case will be having two instances of the app talking to each other (ie, on two different devices or on device and simulator). Properly document the test procedure so we are able to actually see it working.
+The test case will be having two instances of the app talking to each other (ie, on two different devices or on device and simulator). For this challenge you don't need to roll your own CTI or PBX. You can use simple capability token management (have a look on the Assumptions section). Properly document the build and test procedures so we are able to actually see it working.
 
 You are free to take the options regarding UI layout and app navigation that you think are the most suited.
-
-The challenge can be solved either in Objective-C or Swift. If you choose Swift *please include also some significant* **Objective-C** *portion of source code*.
 
 ## Requirements
 
@@ -21,18 +19,16 @@ The challenge can be solved either in Objective-C or Swift. If you choose Swift 
 
 ## Assumptions
 
-1. Your app must use **Twilio** for the voice calls. Use their [SDK for iOS](https://www.twilio.com/docs/api/client/ios) to provide integration. 
-2. You'll need to set up a server to back up your iOS app. Twilio offers a [ready-made solution](https://github.com/twilio/mobile-quickstart) that you can use. You are advised to host it on a publicly available solution like [Heroku](https://heroku.com/).
-
-    
+*. Your app must use **Twilio** for the voice calls. Use their [SDK for iOS](https://www.twilio.com/docs/api/client/ios) to provide integration. 
+*. Suppose that only two users are involved and that their calls are originated from fixed Twilio client names (no PSTN numbers).
+   
 ## Tips
 
- 1. You don't need to spare a dime to do the challenge: you can subscribe to a free trial account on both Twilio and Heroku.
+ 1. You don't need to spare a dime to do the challenge: you can subscribe to a free trial account on Twilio.
  2. No "HelloMonkey" apps, please! (If you did it right, you know what we mean...)
  3. You'll be developing for a mobile platform so apply the standard industry practices for energy management, security, error handling, etc.
- 4. iOS apps are UI-centric but you can target for a simple experience in this case. But feel free to go wild if you want or if you have that "special touch"
- 5. Write tests and documentation where appropriate.
- 6. New features might be added to the app at a later point. You should prepare the solution for the future.
+ 4. iOS apps are UI-centric but you can target for a simple experience in this case. If you want or you have that "special touch" feel free to go wild.
+ 5. New features might be added to the app at a later point. You should prepare the solution for the future.
 
 
 **Final note**: If there's anything you don't understand or is ambiguous, open an issue in your repository with the question.
