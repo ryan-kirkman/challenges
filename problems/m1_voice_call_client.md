@@ -19,8 +19,8 @@ You are free to take the options regarding UI layout and app navigation that you
 
 ## Assumptions
 
-*. Your app must use **Twilio** for the voice calls. Use their [SDK for iOS](https://www.twilio.com/docs/api/client/ios) to provide integration. 
-*. Suppose that only two users are involved and that their calls are originated from fixed Twilio client names (no PSTN numbers).
+* Your app must use **Twilio** for the voice calls. Use their [SDK for iOS](https://www.twilio.com/docs/api/client/ios) to provide integration. 
+* Suppose that only two users are involved and that their calls are originated from fixed Twilio client names (no PSTN numbers).
    
 ## Tips
 
